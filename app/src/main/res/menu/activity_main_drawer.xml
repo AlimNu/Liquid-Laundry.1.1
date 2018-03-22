@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/laundry"
+            android:icon="@drawable/ic_washing_machine"
+            android:title="@string/laundry" />
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_contract"
+            android:title="@string/my_order" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_avatar"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_question"
+            android:title="@string/help" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_power"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

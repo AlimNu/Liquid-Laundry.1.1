@@ -1,0 +1,30 @@
+jadi aplikasi yang akan dibikin adalah aplikasi liquid laundry
+saat membuka aplikasi page yang akan muncul adalah ;
+
+- login page, jadi aplikasi tersebut bisa login melalui google/facebook
+  page selanjutnya yaitu
+
+- laundy page, pengguna aplikasi memasukan tanggal dan waktu untk penjemputan (pickup)
+  dan pengantaran (delivery) lalu tekan next. sesuai seperti di mockup
+
+- load and price page, setelah menekan next pada halaman sebelumnya maka akan
+  muncul load and price page yang di dalamnya pelanggan dapat menentukan estimasi
+  harga pada laundry, lalu tekan next. sesuai seperti mock up
+
+- confirmation order page, setelah menekan next pada hallaman sebelumnya lalu muncul 
+  confirmation page yang dimana pelanggan dapat melihat data pickup dan delivery
+  dan estimasi harga yang telah dimasukian. lalu selanjutnya pelanggan menekan 
+  make order
+
+- progress page, setelah pelanggan menekan make order pelanggan dapat melihat
+  progress laundry. ( contoh progress : dicuci, setrika, packing, selesai)
+
+- profil page, pada profil page pelanggan dapat melihat profil pelanggan seperti
+  nama email dll
+
+- menu bar, di dalam menu bar pelanggan dapat memilih untuk membuka page
+  laundry, progress, profil dan sign out.
+
+note : maaf bgt mock up nya banyak kekurangan, tapi kurang lebih seperti penjelasan
+       diatas aplikasinya atau mirip sama kliknklin. oiya judul page sesuaikan saja dengan
+       penjelasan diatas. 
