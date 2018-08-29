@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D0:4D:1F:41:62:7A:46:4F:FC:64:81:D6:66:4C:B4:A7:2E:5E:D8:61%3Bid.liqu.laundry.liquid.ui
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    D0:4D:1F:41:62:7A:46:4F:FC:64:81:D6:66:4C:B4:A7:2E:5E:D8:61
+
+    SHA-1 certificate fingerprint:
+    D0:4D:1F:41:62:7A:46:4F:FC:64:81:D6:66:4C:B4:A7:2E:5E:D8:61
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAtT14QzQFfW8aEm59Q9z0EENLejY-acM0</string>
+</resources>

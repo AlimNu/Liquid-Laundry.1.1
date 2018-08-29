@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "744497643934",
+    "firebase_url": "https://liquidp-f1faf.firebaseio.com",
+    "project_id": "liquidp-f1faf",
+    "storage_bucket": "liquidp-f1faf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744497643934:android:367b4245c78afc12",
+        "android_client_info": {
+          "package_name": "id.liqu.laundry.liquid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744497643934-van0r56kih124erirhja07bmurm7vuqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.liqu.laundry.liquid",
+            "certificate_hash": "d04d1f41627a464ffc6481d6664cb4a72e5ed861"
+          }
+        },
+        {
+          "client_id": "744497643934-7qv5tifepaoov6e1aj67bqpc7p642l9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9HuwIFCwAMRk3qwuWm_rmLhF65A-lMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744497643934-7qv5tifepaoov6e1aj67bqpc7p642l9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorWhite">
 
-    <Button
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/btn_facebook"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -14,16 +14,16 @@
         android:text="Facebook"
         android:textColor="#fff"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_google"
+        app:layout_constraintEnd_toEndOf="@+id/btn_google"
+        app:layout_constraintStart_toStartOf="@+id/btn_google" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_google"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_facebook"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="28dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
         android:backgroundTint="@color/colorGoogle"

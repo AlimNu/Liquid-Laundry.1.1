@@ -21,16 +21,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/date"
+        android:id="@+id/ldate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/time"
+        app:layout_constraintEnd_toStartOf="@+id/ltime"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/title"
         app:layout_constraintTop_toBottomOf="@+id/title">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date"
@@ -39,16 +40,17 @@
 
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/time"
+        android:id="@+id/ltime"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/date"
-        app:layout_constraintTop_toTopOf="@+id/date">
+        app:layout_constraintStart_toEndOf="@+id/ldate"
+        app:layout_constraintTop_toTopOf="@+id/ldate">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Time"
@@ -56,29 +58,34 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/location"
-        android:layout_width="0dp"
+        android:id="@+id/llocation"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@id/time"
-        app:layout_constraintLeft_toLeftOf="@id/date"
-        app:layout_constraintTop_toBottomOf="@id/date">
+        app:layout_constraintStart_toStartOf="@+id/ldate"
+        app:layout_constraintTop_toBottomOf="@id/ldate">
 
         <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
+            android:id="@+id/location"
+            android:layout_width="342dp"
             android:layout_height="wrap_content"
             android:hint="Location"
             android:textSize="12sp" />
+
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/notes"
+        android:id="@+id/lnotes"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@id/location"
-        app:layout_constraintLeft_toLeftOf="@id/location"
-        app:layout_constraintTop_toBottomOf="@id/location">
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/llocation"
+        app:layout_constraintStart_toStartOf="@+id/ldate"
+        app:layout_constraintTop_toBottomOf="@+id/llocation">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/notes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Notes"
@@ -89,24 +96,25 @@
         android:id="@+id/title_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:text="Delivery Laundry"
         android:textSize="16dp"
-        app:layout_constraintStart_toStartOf="@id/notes"
-        app:layout_constraintTop_toBottomOf="@id/notes" />
+        app:layout_constraintStart_toStartOf="@id/lnotes"
+        app:layout_constraintTop_toBottomOf="@id/lnotes" />
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/date_2"
+        android:id="@+id/ldate_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/time_2"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/ltime_2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/title_2"
         app:layout_constraintTop_toBottomOf="@+id/title_2">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/date_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date"
@@ -114,15 +122,16 @@
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/time_2"
+        android:id="@+id/ltime_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/notes"
+        app:layout_constraintEnd_toEndOf="@+id/lnotes"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/date_2"
-        app:layout_constraintTop_toTopOf="@+id/date_2">
+        app:layout_constraintStart_toEndOf="@+id/ldate_2"
+        app:layout_constraintTop_toTopOf="@+id/ldate_2">
 
         <android.support.design.widget.TextInputEditText
+            android:id="@+id/time_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Time"
@@ -130,9 +139,7 @@
     </android.support.design.widget.TextInputLayout>
 
 
-
-
-    <TextView
+    <Button
         android:id="@+id/submit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -147,6 +154,36 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/colorPrimary"
+        android:text="m"
+        app:layout_constraintBottom_toTopOf="@+id/lnotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llocation"
+        app:layout_constraintTop_toBottomOf="@+id/ltime"
+        tools:text="m" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 
 </android.support.constraint.ConstraintLayout>
